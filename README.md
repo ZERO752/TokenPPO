@@ -1,7 +1,7 @@
 # TokenPPO
 Token-Level Reinforcement Learning for Diffusion Model Generation
-## Introduction
 
+## Introduction
 This repository contains a minimal implementation of TokenPPO,
 a reinforcement learning framework designed for token-level control in diffusion-based image generation.
 
@@ -20,7 +20,6 @@ Plug-and-play with existing Stable Diffusion pipelines
 Especially effective for anime-style generation
 
 ## Aesthetic Scorer Demo
-
 We provide a minimal demo for image aesthetic scoring, combining the anime-aesthetic predictor with WD14 tagger.
 
 Model References
@@ -32,7 +31,11 @@ Tagger:[ toriato/stable-diffusion-webui-wd14-tagger](https://github.com/toriato/
 ## Training Pipeline
 The overall training workflow of **TokenPPO** is illustrated below:
 ![Training Pipeline](examples/TokenPPO_train.png)
-## License
 
+## Gneration Process
+The following diagram illustrates how **TokenPPO** controls the diffusion model during image generation:
+![Generation Process]examples/TokenPPO_generation.png
+
+## License
 This project is licensed under the Apache 2.0 License.
 See https://github.com/ZERO752/TokenPPO/blob/main/LICENSE for details.
