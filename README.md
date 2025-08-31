@@ -34,7 +34,7 @@ The overall training workflow of **TokenPPO** is illustrated below:
 
 ## Gneration Process
 The following diagram illustrates how **TokenPPO** controls the diffusion model during image generation:
-![Generation Process]examples/TokenPPO_generation.png
+![Generation Process](examples/TokenPPO_generation.png)
 
 ## License
 This project is licensed under the Apache 2.0 License.
