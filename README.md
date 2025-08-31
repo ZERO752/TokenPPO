@@ -31,7 +31,7 @@ Tagger:[ toriato/stable-diffusion-webui-wd14-tagger](https://github.com/toriato/
 
 ## Training Pipeline
 The overall training workflow of **TokenPPO** is illustrated below:
-![Training Pipeline]
+![Training Pipeline](examples/TokenPPO_train.png)
 ## License
 
 This project is licensed under the Apache 2.0 License.
