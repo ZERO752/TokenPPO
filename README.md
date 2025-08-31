@@ -36,6 +36,11 @@ The overall training workflow of **TokenPPO** is illustrated below:
 The following diagram illustrates how **TokenPPO** controls the diffusion model during image generation:
 ![Generation Process](examples/TokenPPO_generation.png)
 
+## Aesthetic Attention Index
+To better illustrate the effectiveness of TokenPPO, we introduce the **Aesthetic Attention Index**,  
+which measures how much the generated tokens align with aesthetic preferences.  
+The figure below shows the improvement trend under TokenPPO control：
+![Aesthetic Attention Index](./examples/Token%20Aesthetic%20Filter.png)
 ## License
 This project is licensed under the Apache 2.0 License.
 See https://github.com/ZERO752/TokenPPO/blob/main/LICENSE for details.
